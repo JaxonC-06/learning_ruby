@@ -52,3 +52,12 @@ end
 
 - Essentially, passing a block into a Ruby method is like passing a callback in a JavaScript function.
 - To see more on blocks, refer to the [benchmark_blocks](/benchmark_blocks) folder.
+
+## Ruby Constants
+
+- A *constant* refers to a module.
+- Any keyword with a capitalized first letter in considered a constant.
+- Both module and class constants create a **namespace** within which other constants can be placed.
+- Required files in Ruby have the ability to and are expected to define constants in the global namespace.
+- The `::` syntax is used to access constants.
+- All constants exist int he object namespace.
